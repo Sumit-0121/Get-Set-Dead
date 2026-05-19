@@ -108,6 +108,15 @@ The project is actively being expanded with more levels, mechanics, and gameplay
 - PlayerPrefs
 - Scene Management
 
+
+# Repository Structure
+
+```plaintext
+Assets/             -> Game assets and scripts
+Packages/           -> Unity packages
+ProjectSettings/    -> Unity project settings
+```
+
 ---
 
 
@@ -122,15 +131,6 @@ The project is actively being expanded with more levels, mechanics, and gameplay
 - Performance optimization
 
 ---
-
-# Repository Structure
-
-```plaintext
-Assets/             -> Game assets and scripts
-Packages/           -> Unity packages
-ProjectSettings/    -> Unity project settings
-```
-
 
 # Playable APK
 
