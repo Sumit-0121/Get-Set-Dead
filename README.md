@@ -135,8 +135,9 @@ README.md/          -> Project Description
 
 # Playable APK
 
-Download the latest Android APK from the Releases section:
-https://github.com/Sumit-0121/Get-Set-Dead/releases
+Download the latest Android APK from the Releases section-
+
+[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/Sumit-0121/Get-Set-Dead/releases)
 
 ---
 
