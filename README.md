@@ -107,6 +107,7 @@ The project is actively being expanded with more levels, mechanics, and gameplay
 - PlayerPrefs
 - Scene Management
 
+---
 
 # Repository Structure
 
