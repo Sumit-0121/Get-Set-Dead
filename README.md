@@ -1,6 +1,6 @@
 # Get Set Dead
 
-Get Set Dead is a 2D mobile trap-platformer developed in Unity using C# as a college project.  
+**Get Set Dead** is a 2D mobile trap-platformer developed in Unity using C# as a college project.  
 Inspired by games like *Level Devil*, the project focuses on adaptive gameplay behavior, reaction-based mechanics, and unpredictable level design that constantly challenges the player.
 
 Unlike traditional platformers where levels remain static and predictable, Get Set Dead is designed to react to player actions through dynamic traps, hidden danger systems, and deceptive level mechanics.
@@ -115,6 +115,7 @@ The project is actively being expanded with more levels, mechanics, and gameplay
 Assets/             -> Game assets and scripts
 Packages/           -> Unity packages
 ProjectSettings/    -> Unity project settings
+README.md/          -> Project Description 
 ```
 
 ---
