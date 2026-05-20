@@ -1,36 +1,51 @@
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uild/
-[Ll]ogs/
+# Ignore everything
+*
+
+# Keep important Unity folders
+!Assets/
+!Packages/
+!ProjectSettings/
+
+# Keep their contents
+!Assets/**
+!Packages/**
+!ProjectSettings/**
+
+# Keep README and gitignore
+!.gitignore
+!README.md
+!README
+
+# Ignore Unity generated folders
+Library/
+Logs/
+Temp/
+Obj/
 UserSettings/
-[Uu][Ii]/
 
-MemoryCaptures/
-Recordings/
-
+# Ignore IDE/editor files
+.vscode/
 .vs/
-.gradle/
-ExportedObj/
+.idea/
 
+# Ignore solution/project files
 *.csproj
-*.unityproj
 *.sln
+*.slnx
+*.unityproj
+*.pidb
 *.suo
-*.tmp
 *.user
 *.userprefs
-*.pidb
-*.booproj
-*.svd
-*.pdb
-*.mdb
-*.opendb
-*.VC.db
 
-.DS_Store
-Thumbs.db
+# Ignore build files
+Builds/
+*.apk
+*.aab
 
-.utmp/
+# Ignore keystore/security files
 *.keystore
+
+# Ignore random folders
+UI/
+.utmp/
