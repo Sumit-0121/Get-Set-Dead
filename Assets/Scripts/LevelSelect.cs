@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class LevelSelect : MonoBehaviour
 {
     [Header("References")]
-    public Transform nodeParent;   // Assign: Scroll View → Content
+    public Transform nodeParent;   
 
     private List<Transform> nodes = new List<Transform>();
 
@@ -15,14 +15,14 @@ public class LevelSelect : MonoBehaviour
 
     }
 
-    // 🔹 Collect all level nodes
+    //  Collect all level nodes
     void GetAllNodes()
     {
         nodes.Clear();
 
-        foreach (Transform group in nodeParent) // e.g., LevelNodes container
+        foreach (Transform group in nodeParent) 
         {
-            foreach (Transform node in group)   // actual nodes
+            foreach (Transform node in group)  
             {
                 nodes.Add(node);
             }
@@ -31,7 +31,7 @@ public class LevelSelect : MonoBehaviour
         Debug.Log("Nodes Found: " + nodes.Count);
     }
 
-    // ---------------- LEVEL LOADING ----------------
+    //  LEVEL LOADING
 
     public void LoadLevel(int index)
     {
