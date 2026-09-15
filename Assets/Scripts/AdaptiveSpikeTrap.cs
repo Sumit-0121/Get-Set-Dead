@@ -74,11 +74,8 @@ public class AdaptiveSpikeTrap : MonoBehaviour
             }
         }
     }
-
-    // =========================================================
+    
     // ATTEMPT 1
-    // Sequential spikes
-    // =========================================================
 
     IEnumerator AttemptOne()
     {
@@ -96,14 +93,10 @@ public class AdaptiveSpikeTrap : MonoBehaviour
         }
     }
 
-    // =========================================================
     // ATTEMPT 2
-    // All spikes emerge + move left/right with pauses
-    // =========================================================
 
     IEnumerator AttemptTwo()
     {
-        // Make all spikes come out together
         for (int i = 0; i < spikes.Length; i++)
         {
             StartCoroutine(
@@ -145,10 +138,7 @@ public class AdaptiveSpikeTrap : MonoBehaviour
         }
     }
 
-    // =========================================================
     // ATTEMPT 3
-    // Random continuous spikes
-    // =========================================================
 
     IEnumerator AttemptThree()
 {
@@ -168,7 +158,6 @@ public class AdaptiveSpikeTrap : MonoBehaviour
             );
         }
 
-        // Random delay
         float randomDelay =
             Random.Range(0.1f, 0.6f);
 
@@ -176,9 +165,6 @@ public class AdaptiveSpikeTrap : MonoBehaviour
     }
 }
 
-    // =========================================================
-    // RANDOM SPIKE POP
-    // =========================================================
 
    IEnumerator RandomSpikePop(int index)
 {
@@ -191,7 +177,6 @@ public class AdaptiveSpikeTrap : MonoBehaviour
         )
     );
 
-    // Random visible duration
     float stayTime =
         Random.Range(0.1f, 0.5f);
 
@@ -206,10 +191,6 @@ public class AdaptiveSpikeTrap : MonoBehaviour
         )
     );
 }
-
-    // =========================================================
-    // MOVE SINGLE SPIKE
-    // =========================================================
 
     IEnumerator MoveSpike(
         Transform spike,
@@ -236,9 +217,6 @@ public class AdaptiveSpikeTrap : MonoBehaviour
         spike.position = target;
     }
 
-    // =========================================================
-    // MOVE WHOLE GROUP
-    // =========================================================
 
     IEnumerator MoveGroup(Vector3 target)
     {
