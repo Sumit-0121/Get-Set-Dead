@@ -17,14 +17,12 @@ public class FakePlatform : MonoBehaviour
         attempt = GameManager.Instance.attemptCount;
 
         // ATTEMPT 1
-        // Fake platform
         if (attempt == 1)
         {
             boxCollider.enabled = false;
         }
 
         // ATTEMPT 2+
-        // Normal platform
         else
         {
             boxCollider.enabled = true;
