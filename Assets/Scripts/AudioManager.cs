@@ -109,10 +109,9 @@ public class AudioManager : MonoBehaviour
             StopBGM();
     }
 
-    // =========================
-    // 🎵 MUSIC
-    // =========================
 
+    // MUSIC
+    
     public void PlayBGM()
     {
         string scene =
@@ -186,10 +185,7 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    // =========================
-    // 🔊 SFX
-    // =========================
-
+    //  SFX
     public void PlayJump()
     {
         if (jumpSound == null) return;
@@ -252,10 +248,8 @@ public class AudioManager : MonoBehaviour
         winSource.Play();
     }
 
-    // =========================
-    // 🎚️ VOLUME
-    // =========================
-
+    //  VOLUME
+    
     public void SetMasterVolume(float value)
     {
         masterVolume = value;
@@ -295,9 +289,7 @@ public class AudioManager : MonoBehaviour
             masterVolume * sfxVolume;
     }
 
-    // =========================
-    // 💾 SAVE / LOAD
-    // =========================
+    //  SAVE / LOAD
 
     void SaveSettings()
     {
@@ -352,9 +344,8 @@ public class AudioManager : MonoBehaviour
                 0.3f);
     }
 
-    // =========================
-    // 🎛️ TOGGLES
-    // =========================
+
+    //  TOGGLES
 
     public void ToggleMenuMusic(bool state)
     {
