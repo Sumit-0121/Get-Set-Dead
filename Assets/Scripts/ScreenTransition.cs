@@ -16,7 +16,7 @@ public class ScreenTransition : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject); // 🔥 VERY IMPORTANT
+            DontDestroyOnLoad(gameObject); //  VERY IMPORTANT
         }
         else
         {
@@ -33,7 +33,7 @@ public class ScreenTransition : MonoBehaviour
     {
         float t = 0;
 
-        // 🔴 FADE IN (to black)
+        //  FADE IN (to black)
         while (t < fadeDuration)
         {
             t += Time.unscaledDeltaTime;
@@ -42,13 +42,13 @@ public class ScreenTransition : MonoBehaviour
             yield return null;
         }
 
-        // ⏳ WAIT
+        //  WAIT
         yield return new WaitForSecondsRealtime(waitTime);
 
-        // 🔄 LOAD NEXT SCENE
+        //  LOAD NEXT SCENE
         SceneManager.LoadScene(sceneIndex);
         
-        // 🔥 Wait a bit so scene fully renders
+        //  Wait a bit so scene fully renders
         yield return new WaitForSecondsRealtime(0.1f);
         
         // Reset timer
