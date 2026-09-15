@@ -16,7 +16,7 @@ public class ScreenTransition : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject); //  VERY IMPORTANT
+            DontDestroyOnLoad(gameObject); 
         }
         else
         {
@@ -48,7 +48,6 @@ public class ScreenTransition : MonoBehaviour
         //  LOAD NEXT SCENE
         SceneManager.LoadScene(sceneIndex);
         
-        //  Wait a bit so scene fully renders
         yield return new WaitForSecondsRealtime(0.1f);
         
         // Reset timer
