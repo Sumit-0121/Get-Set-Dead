@@ -54,9 +54,8 @@ public class PlayerMovement : MonoBehaviour
         BetterJumpPhysics();
     }
 
-    // =========================================
     // MOVEMENT
-    // =========================================
+
     void HandleMovement()
     {
         float moveInput = 0f;
@@ -97,9 +96,8 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    // =========================================
     // GROUND CHECK
-    // =========================================
+ 
     void HandleGroundCheck()
     {
         isGrounded = Physics2D.OverlapCircle(
@@ -114,9 +112,8 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    // =========================================
     // JUMP
-    // =========================================
+
     void HandleJump()
     {
         bool jumpInput =
@@ -138,9 +135,8 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    // =========================================
     // BETTER JUMP
-    // =========================================
+
     void BetterJumpPhysics()
     {
         // Faster Fall
@@ -164,9 +160,8 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    // =========================================
     // FLIP
-    // =========================================
+
     void Flip()
     {
         facingRight = !facingRight;
@@ -178,9 +173,8 @@ public class PlayerMovement : MonoBehaviour
         transform.localScale = scale;
     }
 
-    // =========================================
     // SQUASH & STRETCH
-    // =========================================
+
     void SquashAndStretch()
     {
         float direction = Mathf.Sign(transform.localScale.x);
@@ -207,9 +201,8 @@ public class PlayerMovement : MonoBehaviour
             );
     }
 
-    // =========================================
     // GIZMOS
-    // =========================================
+
     void OnDrawGizmosSelected()
     {
         if (groundCheck == null) return;
