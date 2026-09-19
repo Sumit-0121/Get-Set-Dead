@@ -95,8 +95,6 @@ but to survive the level’s unexpected behavior.
 - Mobile controls
 - Android APK build
 
-The project is actively being expanded with more levels, mechanics, and gameplay polish planned.
-
 ---
 
 # Built With
@@ -120,19 +118,6 @@ README.md/          -> Project Description
 
 ---
 
-
-# Future Improvements
-
-- More levels
-- Advanced adaptive trap mechanics
-- Better visual polish
-- Improved animations
-- Additional sound effects
-- Gameplay feedback improvements
-- Performance optimization
-
----
-
 # Playable APK
 
 Download the latest Android APK from the Releases section -
@@ -141,14 +126,27 @@ Download the latest Android APK from the Releases section -
 
 ---
 
-# Developer
 
-## Sumit Prasad
+##  Developer
 
-### Connect With Me
+<div align="center">
 
-- LinkedIn: https://www.linkedin.com/in/sumit-prasad-5111b2312
-- GitHub: https://github.com/Sumit-0121
-- Email: sumitprasad2105@gmail.com
+### Sumit Prasad
 
----
+<br>
+
+<a href="https://github.com/Sumit-0121">
+  <img src="https://cdn.simpleicons.org/github/FFFFFF" width="42" height="42" alt="GitHub">
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/sumit-prasad-5111b2312">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linkedin.svg" width="42" height="42" alt="LinkedIn">
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:sumitprasad2105@gmail.com">
+  <img src="https://cdn.simpleicons.org/gmail/EA4335" width="42" height="42" alt="Email">
+</a>
+
+</div>
+
+
